@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gallery-container">
+        <h1>Image Gallery</h1>
+        <div class="gallery">
+            <img src="img1.jpg" alt="Image 1" class="gallery-item">
+            <img src="img2.jpg" alt="Image 2" class="gallery-item">
+            <img src="img3.jpg" alt="Image 3" class="gallery-item">
+            <img src="img4.jpg" alt="Image 4" class="gallery-item">
+            <img src="img5.jpg" alt="Image 5" class="gallery-item">
+            <img src="img7.jpg" alt="Image 6" class="gallery-item">
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modal-img" src="" alt="Modal Image" />
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
